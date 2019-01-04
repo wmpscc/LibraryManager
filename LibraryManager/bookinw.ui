@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>942</width>
-    <height>728</height>
+    <width>1280</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="font">
@@ -20,33 +20,13 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>30</y>
-      <width>251</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>30</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>采编入库</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>620</y>
-      <width>201</width>
-      <height>51</height>
+      <x>610</x>
+      <y>680</y>
+      <width>150</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="font">
@@ -55,15 +35,15 @@
      </font>
     </property>
     <property name="text">
-     <string>入库</string>
+     <string/>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>122</y>
-      <width>117</width>
+      <x>550</x>
+      <y>190</y>
+      <width>101</width>
       <height>471</height>
      </rect>
     </property>
@@ -77,7 +57,10 @@
       <widget class="QLabel" name="label_2">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -89,7 +72,10 @@
       <widget class="QLabel" name="label_3">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -101,7 +87,10 @@
       <widget class="QLabel" name="label_4">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -113,7 +102,10 @@
       <widget class="QLabel" name="label_5">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -125,7 +117,10 @@
       <widget class="QLabel" name="label_6">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -137,7 +132,10 @@
       <widget class="QLabel" name="label_7">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -149,7 +147,10 @@
       <widget class="QLabel" name="label_8">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -161,7 +162,10 @@
       <widget class="QLabel" name="label_9">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -173,7 +177,10 @@
       <widget class="QLabel" name="label_10">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -185,7 +192,10 @@
       <widget class="QLabel" name="label_11">
        <property name="font">
         <font>
+         <family>微软雅黑 Light</family>
          <pointsize>13</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -198,9 +208,9 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>120</y>
-      <width>731</width>
+      <x>660</x>
+      <y>180</y>
+      <width>551</width>
       <height>491</height>
      </rect>
     </property>
@@ -211,92 +221,122 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="QLineEdit" name="le_book_id">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>0</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_2">
+      <widget class="QLineEdit" name="le_book_name">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>数据结构</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_3">
+      <widget class="QLineEdit" name="le_book_author">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>周幸妮</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_4">
+      <widget class="QLineEdit" name="le_book_seek_number">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>TP311.12</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_5">
+      <widget class="QLineEdit" name="le_book_curr_num">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>20</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_6">
+      <widget class="QLineEdit" name="le_book_total_num">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>50</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_7">
+      <widget class="QLineEdit" name="le_book_press">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>电子工业出版社</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_8">
+      <widget class="QLineEdit" name="le_book_press_date">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>20160401</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_9">
+      <widget class="QLineEdit" name="le_book_pages_num">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
        </property>
+       <property name="text">
+        <string>516</string>
+       </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_10">
+      <widget class="QLineEdit" name="le_book_std_code">
        <property name="font">
         <font>
          <pointsize>15</pointsize>
         </font>
+       </property>
+       <property name="text">
+        <string>9787121280849</string>
        </property>
       </widget>
      </item>
@@ -305,10 +345,10 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>620</y>
-      <width>201</width>
-      <height>51</height>
+      <x>970</x>
+      <y>680</y>
+      <width>150</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="font">
@@ -317,16 +357,16 @@
      </font>
     </property>
     <property name="text">
-     <string>删除记录</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>620</y>
-      <width>201</width>
-      <height>51</height>
+      <x>790</x>
+      <y>680</y>
+      <width>150</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="font">
@@ -335,16 +375,16 @@
      </font>
     </property>
     <property name="text">
-     <string>修改</string>
+     <string/>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>80</y>
+      <x>860</x>
+      <y>140</y>
       <width>358</width>
-      <height>25</height>
+      <height>32</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -352,7 +392,8 @@
       <widget class="QLabel" name="label_12">
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <family>微软雅黑 Light</family>
+         <pointsize>11</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -363,12 +404,18 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_11"/>
+      <widget class="QLineEdit" name="le_book_id_2">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="button_search_book">
        <property name="text">
-        <string>搜索</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -380,7 +427,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>942</width>
+     <width>1280</width>
      <height>21</height>
     </rect>
    </property>

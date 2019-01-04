@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>button.png</file>
+        <file>图书检索.png</file>
+        <file>书籍入库.png</file>
+        <file>图书借阅.png</file>
+        <file>图书归还.png</file>
+        <file>读者信息录入.png</file>
+        <file>b1.png</file>
+        <file>b2.png</file>
+        <file>删除记录.png</file>
+        <file>修改.png</file>
+        <file>入库.png</file>
+        <file>搜索.png</file>
+        <file>b3.png</file>
+        <file>归还.png</file>
+        <file>查找中.png</file>
+        <file>查找长.png</file>
+        <file>b4.png</file>
+        <file>借出.png</file>
+        <file>b5.png</file>
+        <file>保存.png</file>
+        <file>b6.png</file>
+        <file>查询.png</file>
+        <file>仅显示可借图书.png</file>
+        <file>b7.png</file>
+    </qresource>
+</RCC>

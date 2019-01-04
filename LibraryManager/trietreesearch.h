@@ -1,0 +1,6 @@
+#ifndef TRIETREESEARCH_H
+#define TRIETREESEARCH_H
+
+
+
+#endif // TRIETREESEARCH_H

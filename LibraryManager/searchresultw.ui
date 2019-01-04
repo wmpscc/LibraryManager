@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1030</width>
-    <height>622</height>
+    <width>1280</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -23,27 +23,28 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>10</y>
-      <width>161</width>
-      <height>51</height>
+      <x>40</x>
+      <y>40</y>
+      <width>200</width>
+      <height>50</height>
      </rect>
     </property>
     <property name="text">
-     <string>仅显示可借出图书</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>30</y>
-      <width>128</width>
-      <height>20</height>
+      <x>290</x>
+      <y>40</y>
+      <width>331</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>微软雅黑 Light</family>
       <pointsize>12</pointsize>
       <weight>75</weight>
       <italic>false</italic>
@@ -51,7 +52,7 @@
      </font>
     </property>
     <property name="text">
-     <string>共 50 条记录</string>
+     <string>共 0 条记录</string>
     </property>
     <property name="openExternalLinks">
      <bool>false</bool>
@@ -61,23 +62,10 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>90</y>
-      <width>981</width>
-      <height>451</height>
+      <y>110</y>
+      <width>1241</width>
+      <height>631</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>131</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>按书号排序</string>
     </property>
    </widget>
   </widget>
@@ -86,7 +74,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1030</width>
+     <width>1280</width>
      <height>21</height>
     </rect>
    </property>

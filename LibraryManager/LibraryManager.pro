@@ -31,7 +31,9 @@ SOURCES += \
     borroww.cpp \
     bookinw.cpp \
     searchresultw.cpp \
-    bookbackw.cpp
+    bookbackw.cpp \
+    cglobal.cpp \
+    readerinfow.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -39,7 +41,11 @@ HEADERS += \
     borroww.h \
     bookinw.h \
     searchresultw.h \
-    bookbackw.h
+    bookbackw.h \
+    bookdata.h \
+    trietreesearch.h \
+    cglobal.h \
+    readerinfow.h
 
 FORMS += \
         mainwindow.ui \
@@ -47,9 +53,15 @@ FORMS += \
     borroww.ui \
     bookinw.ui \
     searchresultw.ui \
-    bookbackw.ui
+    bookbackw.ui \
+    readerinfow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES +=
+
+RESOURCES += \
+    backhround.qrc

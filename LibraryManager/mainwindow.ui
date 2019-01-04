@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1032</width>
-    <height>562</height>
+    <width>1280</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,66 +17,66 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>110</y>
-      <width>181</width>
-      <height>71</height>
+      <x>285</x>
+      <y>422</y>
+      <width>142</width>
+      <height>142</height>
      </rect>
     </property>
     <property name="text">
-     <string>图书查找</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>230</y>
-      <width>181</width>
-      <height>71</height>
+      <x>547</x>
+      <y>422</y>
+      <width>142</width>
+      <height>142</height>
      </rect>
     </property>
     <property name="text">
-     <string>书籍入库</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>110</y>
-      <width>181</width>
-      <height>71</height>
+      <x>862</x>
+      <y>592</y>
+      <width>142</width>
+      <height>142</height>
      </rect>
     </property>
     <property name="text">
-     <string>图书借阅</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>320</y>
-      <width>181</width>
-      <height>71</height>
+      <x>641</x>
+      <y>591</y>
+      <width>142</width>
+      <height>142</height>
      </rect>
     </property>
     <property name="text">
-     <string>图书归还</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>330</y>
-      <width>181</width>
-      <height>71</height>
+      <x>402</x>
+      <y>591</y>
+      <width>142</width>
+      <height>142</height>
      </rect>
     </property>
     <property name="text">
-     <string>搜索结果</string>
+     <string/>
     </property>
    </widget>
   </widget>
@@ -85,10 +85,16 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1032</width>
+     <width>1280</width>
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string> </string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

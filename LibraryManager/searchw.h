@@ -17,9 +17,12 @@ public:
 
 private slots:
     void on_button_query_clicked();
-
+    void paintEvent(QPaintEvent *event);
 private:
     Ui::SearchW *ui;
+signals:
+    void sendData(QString, int);
+
 };
 
 #endif // SEARCHW_H
